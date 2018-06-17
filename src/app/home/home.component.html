@@ -1,0 +1,37 @@
+<div class="card mb-3">
+  <div class="card-header">Basic</div>
+  <div class="card-body">
+    <textarea highlight-js>&lt;wangEditor [(ngModel)]="html"></wangEditor></textarea>
+    <wangEditor #e [(ngModel)]="html1" [disabled]="disabled" [config]="config"></wangEditor>
+    <div class="card card-outline-secondary mt-3">
+      <div class="card-body">
+        <blockquote class="card-bodyquote" [innerHTML]="sanitizer.bypassSecurityTrustHtml(html1)"></blockquote>
+      </div>
+    </div>
+    <h5 style="border-bottom:1px solid #eee;" class="mt-3 mb-3 pb-3">一些操作</h5>
+    <div class="mb-3">
+      <button type="button" (click)="disabled = !disabled" class="btn btn-primary btn-sm">{{ disabled ? '启用' : '禁用'}}</button>
+      <button type="button" (click)="showJson()" class="btn btn-primary btn-sm ml-2">获取JSON格式</button>
+    </div>
+  </div>
+</div>
+<div class="card mb-3">
+  <div class="card-header">自定义菜单</div>
+  <div class="card-body">
+    <textarea highlight-js>&lt;wangEditor [config]="{ menus: [ 'head', 'bold', 'italic' ] }" [(ngModel)]="html"></wangEditor></textarea>
+    <wangEditor [(ngModel)]="html3" [config]="{ menus: [ 'head', 'bold', 'italic' ] }"></wangEditor>
+  </div>
+</div>
+<div class="card mb-3">
+  <div class="card-header">菜单和编辑区域分离</div>
+  <div class="card-body">
+    <textarea highlight-js>&lt;wangEditor [config]="config" [(ngModel)]="html"></wangEditor></textarea>
+    <div id="div1" class="toolbar"></div>
+    <div style="padding: 5px 0; color: #ccc">中间隔离带</div>
+    <div id="div2" style="border: 1px solid #ccc; height: 400px;">
+      <!--可使用 min-height 实现编辑区域自动增加高度-->
+      <p>请输入内容</p>
+    </div>
+    <wangEditor [(ngModel)]="html2" toolbarSelector="#div1" textSelector="#div2"></wangEditor>
+  </div>
+</div>
