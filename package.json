@@ -1,6 +1,6 @@
 {
   "name": "ngx-wangeditor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./bundles/wangeditor.umd.js",
   "module": "./esm5/wangeditor.js",
   "es2015": "./esm2015/wangeditor.js",
@@ -23,6 +23,9 @@
     "release": "bash ./build.sh && cd publish && npm publish --access public"
   },
   "dependencies": {
+    "wangeditor": "^3.1.1"
+  },
+  "peerDependencies": {
     "wangeditor": "^3.1.1"
   },
   "devDependencies": {

@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('ngx-wangEditor App', () => {
+describe('ngx-wangeditor App', () => {
   let page: AppPage;
 
   beforeEach(() => {

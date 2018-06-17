@@ -1,10 +1,10 @@
-# ngx-wangEditor [![NPM version](https://img.shields.io/npm/v/ngx-wangeditor.svg)](https://www.npmjs.com/package/ngx-wangeditor)
+# ngx-wangeditor [![NPM version](https://img.shields.io/npm/v/ngx-wangeditor.svg)](https://www.npmjs.com/package/ngx-wangeditor)
 
 [wangEditor](https://github.com/wangfupeng1988/wangEditor)的 Angular 版本。
 
 ## 演示
 
-- [Github](https://cipchk.github.io/ngx-wangEditor/)
+- [Github](https://cipchk.github.io/ngx-wangeditor/)
 - [Stackblitz](https://stackblitz.com/edit/ngx-wangeditor)
 
 ## 如何安装
@@ -77,11 +77,11 @@ wangeditor 的体积足够小，因此放在 scripts.js 文件中是可以接受
 
 Please follow this guidelines when reporting bugs and feature requests:
 
-1.  Use [GitHub Issues](https://github.com/cipchk/ngx-wangEditor/issues) board to report bugs and feature requests (not our email address)
+1.  Use [GitHub Issues](https://github.com/cipchk/ngx-wangeditor/issues) board to report bugs and feature requests (not our email address)
 2.  Please **always** write steps to reproduce the error. That way we can focus on fixing the bug, not scratching our heads trying to reproduce it.
 
 Thanks for understanding!
 
 ### License
 
-The MIT License (see the [LICENSE](https://github.com/cipchk/ngx-wangEditor/blob/master/LICENSE) file for the full text)
+The MIT License (see the [LICENSE](https://github.com/cipchk/ngx-wangeditor/blob/master/LICENSE) file for the full text)

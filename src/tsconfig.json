@@ -7,8 +7,8 @@
     "module": "es2015",
     "types": [],
     "paths": {
-      "ngx-wangEditor": ["../lib/index"],
-      "ngx-wangEditor/*": ["../lib/*"]
+      "ngx-wangeditor": ["../lib/index"],
+      "ngx-wangeditor/*": ["../lib/*"]
     }
   },
   "exclude": ["test.ts", "**/*.spec.ts"]
