@@ -1,3 +1,5 @@
+# 写完组件才发现不支持自定义按钮，放弃维护，心累！若有任何问题，请自行找[官网](http://www.wangeditor.com/)
+
 # ngx-wangeditor [![NPM version](https://img.shields.io/npm/v/ngx-wangeditor.svg)](https://www.npmjs.com/package/ngx-wangeditor)
 
 [wangEditor](https://github.com/wangfupeng1988/wangEditor)的 Angular 版本。
